@@ -28,17 +28,17 @@ layers:
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
   - {t: LAYER0, h: toggle}
-  - {t: '$$mdi:apple-keyboard-control$$', h: A}
-  - {t: LGUI, h: R}
-  - {t: '$$mdi:apple-keyboard-option$$', h: S}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: T}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: LGUI}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - M
-  - {t: '$$mdi:apple-keyboard-shift$$', h: N}
-  - {t: '$$mdi:apple-keyboard-option$$', h: E}
-  - {t: RGUI, h: I}
-  - {t: '$$mdi:apple-keyboard-control$$', h: O}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: RGUI}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
   - {t: Ctl+`, s: Ctl+~}
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
@@ -287,7 +287,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: Nav, h: toggle}
+  - {t: LAYER0, h: toggle}
   - A
   - S
   - D
@@ -314,14 +314,14 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - Nav
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Num
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
@@ -352,7 +352,7 @@ layers:
   - Y
   - {t: ;, s: ':'}
   - {t: \, s: '|'}
-  - {t: QWERTY, h: toggle}
+  - {t: LAYER0, h: toggle}
   - A
   - R
   - S
@@ -379,14 +379,14 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - Nav
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Num
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
